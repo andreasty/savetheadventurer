@@ -1,0 +1,32 @@
+<libraries>
+  <library
+      name="/Users/lina/Documents/GitHub/savetheadventurer/Save the Adventurer/Library/Bee/Android/Prj/Mono2x/Gradle@@:unityLibrary::release"
+      jars="/Users/lina/Documents/GitHub/savetheadventurer/Save the Adventurer/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/.transforms/dd7c4dcdd94555974dd0768d555ebe36/transformed/out/jars/classes.jar:/Users/lina/Documents/GitHub/savetheadventurer/Save the Adventurer/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/.transforms/dd7c4dcdd94555974dd0768d555ebe36/transformed/out/jars/libs/unity-classes.jar"
+      resolved="Gradle:unityLibrary:unspecified"
+      folder="/Users/lina/Documents/GitHub/savetheadventurer/Save the Adventurer/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/.transforms/dd7c4dcdd94555974dd0768d555ebe36/transformed/out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="__local_aars__:/Users/lina/Documents/GitHub/savetheadventurer/Save the Adventurer/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/unity-classes.jar:unspecified@jar"
+      jars="/Users/lina/Documents/GitHub/savetheadventurer/Save the Adventurer/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/unity-classes.jar"
+      resolved="__local_aars__:/Users/lina/Documents/GitHub/savetheadventurer/Save the Adventurer/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/unity-classes.jar:unspecified"/>
+  <library
+      name="/Users/lina/Documents/GitHub/savetheadventurer/Save the Adventurer/Library/Bee/Android/Prj/Mono2x/Gradle@@:unityLibrary:mobilenotifications.androidlib::release"
+      jars="/Users/lina/Documents/GitHub/savetheadventurer/Save the Adventurer/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/mobilenotifications.androidlib/build/.transforms/7afab4ab06814a97e967d604899367f7/transformed/out/jars/classes.jar"
+      resolved="Gradle.unityLibrary:mobilenotifications.androidlib:unspecified"
+      folder="/Users/lina/Documents/GitHub/savetheadventurer/Save the Adventurer/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/mobilenotifications.androidlib/build/.transforms/7afab4ab06814a97e967d604899367f7/transformed/out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+</libraries>

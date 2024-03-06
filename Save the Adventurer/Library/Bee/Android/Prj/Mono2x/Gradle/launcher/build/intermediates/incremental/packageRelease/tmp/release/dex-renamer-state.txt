@@ -1,0 +1,4 @@
+#Wed Mar 06 11:04:59 WIB 2024
+base.0=/Users/lina/Documents/GitHub/savetheadventurer/Save the Adventurer/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/intermediates/dex/release/mergeDexRelease/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

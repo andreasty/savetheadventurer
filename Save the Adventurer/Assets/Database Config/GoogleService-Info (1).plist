@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyAg5Bu1b_x8es7sGl1BVBPslSbK8tKHSwU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>213978087779</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.DefaultCompany.com.unity.template.mobile2D</string>
+	<key>PROJECT_ID</key>
+	<string>save-the-adventurer-da5a7</string>
+	<key>STORAGE_BUCKET</key>
+	<string>save-the-adventurer-da5a7.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:213978087779:ios:f2c21cc499d4edf7fe9356</string>
+</dict>
+</plist>

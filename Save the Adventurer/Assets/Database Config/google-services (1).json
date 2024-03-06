@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "213978087779",
+    "project_id": "save-the-adventurer-da5a7",
+    "storage_bucket": "save-the-adventurer-da5a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:213978087779:android:37ce057edef0e5b6fe9356",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.com.unity.template.mobile2D"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8SPi7G-QpbF5y8Zmpvt1LJPUDOWqsLW4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

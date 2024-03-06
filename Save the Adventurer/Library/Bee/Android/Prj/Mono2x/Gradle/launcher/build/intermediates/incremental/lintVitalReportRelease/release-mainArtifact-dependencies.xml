@@ -1,0 +1,19 @@
+<dependencies>
+  <compile
+      roots="/Users/lina/Documents/GitHub/savetheadventurer/Save the Adventurer/Library/Bee/Android/Prj/Mono2x/Gradle@@:unityLibrary::release">
+    <dependency
+        name="/Users/lina/Documents/GitHub/savetheadventurer/Save the Adventurer/Library/Bee/Android/Prj/Mono2x/Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+  </compile>
+  <package
+      roots="/Users/lina/Documents/GitHub/savetheadventurer/Save the Adventurer/Library/Bee/Android/Prj/Mono2x/Gradle@@:unityLibrary::release,__local_aars__:/Users/lina/Documents/GitHub/savetheadventurer/Save the Adventurer/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/unity-classes.jar:unspecified@jar,/Users/lina/Documents/GitHub/savetheadventurer/Save the Adventurer/Library/Bee/Android/Prj/Mono2x/Gradle@@:unityLibrary:mobilenotifications.androidlib::release">
+    <dependency
+        name="/Users/lina/Documents/GitHub/savetheadventurer/Save the Adventurer/Library/Bee/Android/Prj/Mono2x/Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+    <dependency
+        name="__local_aars__:/Users/lina/Documents/GitHub/savetheadventurer/Save the Adventurer/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/unity-classes.jar:unspecified@jar"/>
+    <dependency
+        name="/Users/lina/Documents/GitHub/savetheadventurer/Save the Adventurer/Library/Bee/Android/Prj/Mono2x/Gradle@@:unityLibrary:mobilenotifications.androidlib::release"
+        simpleName="Gradle.unityLibrary:mobilenotifications.androidlib"/>
+  </package>
+</dependencies>
