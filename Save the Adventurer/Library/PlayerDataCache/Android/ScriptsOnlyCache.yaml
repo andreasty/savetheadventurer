@@ -1,14 +1,11 @@
 ScriptsOnlyBuild:
   usedScripts:
-    Assembly-CSharp-Editor.dll:
-    - ReadmeEditor
     Assembly-CSharp.dll:
     - Readme
     - parallax
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Animation.Runtime.dll:
-    - UnityEngine.U2D.Animation.BufferManager
     - UnityEngine.U2D.Animation.SpriteSkinComposite
     - UnityEngine.U2D.Animation.SpriteSkinUpdateHelper
     Unity.2D.IK.Editor.dll:
@@ -23,7 +20,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
     Unity.AdaptivePerformance.Editor.dll:
     - UnityEditor.AdaptivePerformance.Editor.AdaptivePerformanceGeneralSettingsPerBuildTarget
-    - UnityEditor.AdaptivePerformance.Editor.AdaptivePerformanceManagerSettingsEditor
     Unity.AdaptivePerformance.Google.Android.dll:
     - UnityEngine.AdaptivePerformance.Google.Android.GoogleAndroidProviderLoader
     - UnityEngine.AdaptivePerformance.Google.Android.GoogleAndroidProviderSettings
@@ -63,6 +59,8 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.RectMask2D
+    - UnityEngine.UI.ScrollRect
   serializedClasses:
     Unity.AdaptivePerformance:
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexerSettings
@@ -97,10 +95,11 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.ColorBlock
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     - UnityEngine.UI.Navigation
+    - UnityEngine.UI.ScrollRect/ScrollRectEvent
     - UnityEngine.UI.SpriteState
   methodsToPreserve: []
   sceneClasses:
-    Assets/Scenes/SampleScene.unity:
+    Assets/Scenes/Choose Stage.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -120,29 +119,86 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16744}
+      Script: {instanceID: 16746}
     - Class: 114
-      Script: {instanceID: 17528}
+      Script: {instanceID: 17532}
     - Class: 114
-      Script: {instanceID: 18120}
+      Script: {instanceID: 18124}
     - Class: 114
-      Script: {instanceID: 18414}
+      Script: {instanceID: 18420}
     - Class: 114
-      Script: {instanceID: 18796}
+      Script: {instanceID: 18802}
     - Class: 114
-      Script: {instanceID: 20168}
+      Script: {instanceID: 20162}
     - Class: 114
-      Script: {instanceID: 20514}
+      Script: {instanceID: 20186}
     - Class: 114
-      Script: {instanceID: 21498}
+      Script: {instanceID: 20534}
     - Class: 114
-      Script: {instanceID: 22260}
+      Script: {instanceID: 21528}
     - Class: 114
-      Script: {instanceID: 22486}
+      Script: {instanceID: 22294}
     - Class: 114
-      Script: {instanceID: 22942}
+      Script: {instanceID: 22520}
     - Class: 114
-      Script: {instanceID: 23350}
+      Script: {instanceID: 22978}
+    - Class: 114
+      Script: {instanceID: 23386}
+    - Class: 114
+      Script: {instanceID: 24412}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/MainMenu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16746}
+    - Class: 114
+      Script: {instanceID: 18124}
+    - Class: 114
+      Script: {instanceID: 18420}
+    - Class: 114
+      Script: {instanceID: 18802}
+    - Class: 114
+      Script: {instanceID: 21528}
+    - Class: 114
+      Script: {instanceID: 22294}
+    - Class: 114
+      Script: {instanceID: 22520}
+    - Class: 114
+      Script: {instanceID: 22978}
+    - Class: 114
+      Script: {instanceID: 23386}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -570,6 +626,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnCollisionExit2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: f0a97d9e6fd73d25f766d963594fd6e2
+    assemblyName: Unity.AdaptivePerformance.Google.Android
+    namespaceName: UnityEngine.AdaptivePerformance.Google.Android
+    className: GoogleAndroidProviderSettings
   - hash:
       serializedVersion: 2
       Hash: d5125db89c6b164bbac723664bbc5ee6
@@ -1058,6 +1120,12 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionExitMessageListener
   - hash:
       serializedVersion: 2
+      Hash: e30fdb7b6a6df0eee017dee28b488316
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LevelManager
+  - hash:
+      serializedVersion: 2
       Hash: bfd4af30d9804c73a547e494b337b534
     assemblyName: Unity.2D.Tilemap.Extras
     namespaceName: UnityEngine
@@ -1098,6 +1166,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 8eb45366bb6ba9a244efe43d8750223c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: loadingScene
   - hash:
       serializedVersion: 2
       Hash: b14e186823458f549289789cccbb77ce
@@ -1158,6 +1232,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 26b7910ed77507010863951badbe50a7
+    assemblyName: Unity.AdaptivePerformance.Google.Android
+    namespaceName: UnityEngine.AdaptivePerformance.Google.Android
+    className: GoogleAndroidProviderLoader
   - hash:
       serializedVersion: 2
       Hash: 898f7f8619677236f6cfd37239d46686
@@ -1314,19 +1394,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: f0a97d9e6fd73d25f766d963594fd6e2
-    assemblyName: Unity.AdaptivePerformance.Google.Android
-    namespaceName: UnityEngine.AdaptivePerformance.Google.Android
-    className: GoogleAndroidProviderSettings
-  - hash:
-      serializedVersion: 2
-      Hash: 26b7910ed77507010863951badbe50a7
-    assemblyName: Unity.AdaptivePerformance.Google.Android
-    namespaceName: UnityEngine.AdaptivePerformance.Google.Android
-    className: GoogleAndroidProviderLoader
   platform: 13
   scenePathNames:
-  - Assets/Scenes/SampleScene.unity
+  - Assets/Scenes/Choose Stage.unity
+  - Assets/Scenes/MainMenu.unity
   playerPath: /Users/lina/Documents/Internship Dago Eng/savetheadventurer.apk

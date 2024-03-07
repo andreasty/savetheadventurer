@@ -19,6 +19,6 @@
       <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
       <meta-data android:name="notch_support" android:value="true" />
     </activity>
-    <property tools:node="removeAll" xmlns:tools="http://schemas.android.com/tools" />
+    <!-- <property tools:node="removeAll" xmlns:tools="http://schemas.android.com/tools" /> -->
   </application>
 </manifest>

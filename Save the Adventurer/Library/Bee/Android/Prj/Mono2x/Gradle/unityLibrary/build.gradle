@@ -29,7 +29,7 @@ android {
 android {
     ndkPath "/Applications/Unity/Hub/Editor/2022.3.20f1/PlaybackEngines/AndroidPlayer/NDK"
 
-    compileSdkVersion 33
+    compileSdkVersion 34
     buildToolsVersion '34.0.0'
 
     compileOptions {
@@ -39,7 +39,7 @@ android {
 
     defaultConfig {
         minSdkVersion 22
-        targetSdkVersion 33
+        targetSdkVersion 34
         ndk {
             abiFilters 'armeabi-v7a'
         }
