@@ -9,11 +9,14 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Choose Stage.unity
+    path: Assets/Scenes/SelectStage.unity
     guid: eeb32b9530012459a8c214b165b69ab2
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 3fc8acdd13e6c734bafef6554d6fdbcd
+  - enabled: 1
+    path: Assets/Scenes/SelectLevel.unity
+    guid: 68acd438d10254cc7816e0267348b909
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 133327d2eeea8458b9595e48df11fd2d, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: eb86b3788159242f08fe7a433da471a6, type: 2}

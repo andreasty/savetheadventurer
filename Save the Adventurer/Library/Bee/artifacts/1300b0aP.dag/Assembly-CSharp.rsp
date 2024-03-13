@@ -332,6 +332,9 @@
 "Assets/LevelManager.cs"
 "Assets/Scripts/loadingScene.cs"
 "Assets/Scripts/parallax.cs"
+"Assets/Scripts/scenesManager.cs"
+"Assets/Scripts/UIMainMenu.cs"
+"Assets/Scripts/UISelectStage.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 
