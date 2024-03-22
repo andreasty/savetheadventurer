@@ -1346,7 +1346,6 @@ GameObject:
   - component: {fileID: 1415011501}
   - component: {fileID: 1415011500}
   - component: {fileID: 1415011499}
-  - component: {fileID: 1415011502}
   m_Layer: 5
   m_Name: Start Button
   m_TagString: Untagged
@@ -1418,16 +1417,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1415011502}
-        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
-        m_MethodName: changeScene
-        m_Mode: 1
+      - m_Target: {fileID: 36050551}
+        m_TargetAssemblyTypeName: SceneManagerScript, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: SelectStage
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1415011500
@@ -1468,19 +1467,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1415011497}
   m_CullTransparentMesh: 0
---- !u!114 &1415011502
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1415011497}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29ad40ee6ccfd449e9b9e496f2d3e01b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneName: ChooseStage
 --- !u!1 &1521600980
 GameObject:
   m_ObjectHideFlags: 0
@@ -1933,6 +1919,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _SelectStage: {fileID: 1415011499}
+  _SelectLevel: {fileID: 0}
+  _MainMenu: {fileID: 0}
 --- !u!114 &1978848519
 MonoBehaviour:
   m_ObjectHideFlags: 0

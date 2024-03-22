@@ -377,7 +377,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dfc69ce1d04f47f39958cfab11fba81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _MainMenu: {fileID: 781079865}
 --- !u!114 &163706606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -390,7 +389,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d91acb7a5f5c4ce886beda8881a5620, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _SelectLevel: {fileID: 1580877985}
 --- !u!1 &175179058
 GameObject:
   m_ObjectHideFlags: 0
@@ -643,7 +641,7 @@ GameObject:
   - component: {fileID: 253090621}
   - component: {fileID: 253090620}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: Stage 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1294,7 +1292,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 781079866}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1806601050}
+        m_TargetAssemblyTypeName: SceneManagerScript, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: MainMenu
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &781079866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1672,7 +1682,7 @@ GameObject:
   - component: {fileID: 1016105934}
   - component: {fileID: 1016105933}
   m_Layer: 5
-  m_Name: Button (3)
+  m_Name: Stage 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2436,7 +2446,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1580877986}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1806601050}
+        m_TargetAssemblyTypeName: SceneManagerScript, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: SelectLevel
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1580877986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2779,7 +2801,7 @@ GameObject:
   - component: {fileID: 2059368009}
   - component: {fileID: 2059368008}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: Stage 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
